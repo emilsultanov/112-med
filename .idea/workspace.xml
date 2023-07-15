@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Make aviable the first section of main page for medium screens.">
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Add custom paddings according to custom screen sizes.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +131,7 @@
       <workItem from="1688839565636" duration="4365000" />
       <workItem from="1689191130549" duration="1564000" />
       <workItem from="1689275731907" duration="1000000" />
-      <workItem from="1689422421882" duration="7019000" />
+      <workItem from="1689422421882" duration="7793000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -172,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689431505075</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add custom paddings according to custom screen sizes.">
+      <option name="closed" value="true" />
+      <created>1689431818577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689431818577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +217,7 @@
     <MESSAGE value="Create mobile view of first section of main page." />
     <MESSAGE value="Remove unused images" />
     <MESSAGE value="Make aviable the first section of main page for medium screens." />
-    <option name="LAST_COMMIT_MESSAGE" value="Make aviable the first section of main page for medium screens." />
+    <MESSAGE value="Add custom paddings according to custom screen sizes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add custom paddings according to custom screen sizes." />
   </component>
 </project>
