@@ -59,7 +59,22 @@ export default function Home() {
 		  </div>
 		</div>
 	 </section>
-
+	
+	 <section id={'main-page-search-categories'} className={'py-5'}>
+		<div className="container">
+		  <div className={'flex flex-col gap-3 md:flex-row md:items-baseline'}>
+			 <div>
+				<span className={'text-xs not-italic font-semibold leading-[normal] md:text-sm lg:text-base'}>Поиск по:</span>
+			 </div>
+			 <div className={'flex gap-1 md:gap-2'}>
+				<button className={'bg-primary-blue-100 text-white text-center text-xs not-italic font-semibold leading-[normal] capitalize py-2 px-3 rounded-sm md:text-sm lg:text-base lg:py-2.5 lg:px-3.5'}>направлениям</button>
+				<button className={'text-black text-center text-xs not-italic font-semibold leading-[normal] capitalize py-2 px-3 rounded-sm md:text-sm lg:text-base lg:py-2.5 lg:px-3.5'}>типам</button>
+				<button className={'text-black text-center text-xs not-italic font-semibold leading-[normal] capitalize py-2 px-3 rounded-sm md:text-sm lg:text-base lg:py-2.5 lg:px-3.5'}>рейтингу</button>
+				<button className={'text-black text-center text-xs not-italic font-semibold leading-[normal] capitalize py-2 px-3 rounded-sm md:text-sm lg:text-base lg:py-2.5 lg:px-3.5'}>бюджету</button>
+			 </div>
+		  </div>
+		</div>
+	 </section>
 
   </main>)
 }
