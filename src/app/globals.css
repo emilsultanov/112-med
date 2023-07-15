@@ -6,4 +6,8 @@
     html{
         font-family: Gilroy, system-ui, sans-serif;
     }
+
+    html, body{
+        height: 100%;
+    }
 }
