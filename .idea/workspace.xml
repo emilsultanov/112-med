@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Add custom paddings according to custom screen sizes.">
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Make available the first section of main page for large screens.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
@@ -35,6 +35,12 @@
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="emilsultanov" />
+        <option name="repository" value="112-med" />
+      </RepoCoordinatesHolder>
+    </option>
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="1f175045-9785-44fb-9435-20a83404dd7c" />
@@ -131,7 +137,7 @@
       <workItem from="1688839565636" duration="4365000" />
       <workItem from="1689191130549" duration="1564000" />
       <workItem from="1689275731907" duration="1000000" />
-      <workItem from="1689422421882" duration="7793000" />
+      <workItem from="1689422421882" duration="9686000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -181,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689431818577</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Make available the first section of main page for large screens.">
+      <option name="closed" value="true" />
+      <created>1689432778426</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689432778426</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +232,7 @@
     <MESSAGE value="Remove unused images" />
     <MESSAGE value="Make aviable the first section of main page for medium screens." />
     <MESSAGE value="Add custom paddings according to custom screen sizes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add custom paddings according to custom screen sizes." />
+    <MESSAGE value="Make available the first section of main page for large screens." />
+    <option name="LAST_COMMIT_MESSAGE" value="Make available the first section of main page for large screens." />
   </component>
 </project>
