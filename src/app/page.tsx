@@ -85,13 +85,14 @@ export default function Home() {
 				<div>
 				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
 					 <Image
+						priority
 						src={plasticSurgery}
 						alt={'plastic-surgery'}
 						className={'w-auto h-auto object-cover'}
 					 />
 					 <div className={'p-3 h-full flex flex-col items-start justify-between absolute inset-0'}>
-						<h6 className={'text-sm not-italic font-semibold leading-4'}>Пластическая <br/> Хирургия</h6>
-						<button className={'rounded-sm bg-primary-blue-100 text-white text-xs py-1.5 px-3'}>Смотреть еще</button>
+						<h6 className={'text-sm not-italic font-semibold leading-4 sm:text-lg md:text-xl lg:text-2xl'}>Пластическая <br/> Хирургия</h6>
+						<button className={'rounded-sm bg-primary-blue-100 text-white text-xs py-1.5 px-3 sm:text-sm md:text-base lg:text-lg'}>Смотреть еще</button>
 					 </div>
 				  </div>
 				</div>
