@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Create main page search categories section and make it responsible.">
-      <change afterPath="$PROJECT_DIR$/public/background-images/plastic-surgery.svg" afterDir="false" />
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Make image card">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +139,8 @@
       <workItem from="1689275731907" duration="1000000" />
       <workItem from="1689422421882" duration="10783000" />
       <workItem from="1689695943329" duration="8821000" />
+      <workItem from="1689708545704" duration="75000" />
+      <workItem from="1689739996472" duration="1573000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -206,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689435045288</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Make image card">
+      <option name="closed" value="true" />
+      <created>1689708586509</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689708586509</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +253,7 @@
     <MESSAGE value="Add custom paddings according to custom screen sizes." />
     <MESSAGE value="Make available the first section of main page for large screens." />
     <MESSAGE value="Create main page search categories section and make it responsible." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create main page search categories section and make it responsible." />
+    <MESSAGE value="Make image card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make image card" />
   </component>
 </project>
