@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Create mobile view of items">
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Change the replacement of cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,7 @@
       <workItem from="1690116296080" duration="597000" />
       <workItem from="1690278760650" duration="78000" />
       <workItem from="1690289014937" duration="3500000" />
-      <workItem from="1690301322301" duration="848000" />
+      <workItem from="1690301322301" duration="3568000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -243,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690293273159</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Change the replacement of cards">
+      <option name="closed" value="true" />
+      <created>1690303551271</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690303551271</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +295,7 @@
     <MESSAGE value="Create plastic surgery card using built-in Image component of nextjs" />
     <MESSAGE value="Make card responsive" />
     <MESSAGE value="Create mobile view of items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create mobile view of items" />
+    <MESSAGE value="Change the replacement of cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the replacement of cards" />
   </component>
 </project>
