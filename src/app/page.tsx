@@ -84,9 +84,9 @@ export default function Home() {
 		
 		<section className={'py-4'}>
 		  <div className="container">
-			 <div className={'gap-4 grid grid-cols-1 sm:grid-cols-2'}>
+			 <div className={'gap-4 grid grid-cols-1 xs:grid-cols-2 2xl:grid-cols-3'}>
 				<div>
-				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
+				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative h-48'}>
 					 <Image
 						priority
 						src={plasticSurgery}
@@ -100,7 +100,7 @@ export default function Home() {
 				  </div>
 				</div>
 				<div>
-				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
+				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative h-48'}>
 					 <Image
 						priority
 						src={plasticSurgery}
@@ -114,7 +114,7 @@ export default function Home() {
 				  </div>
 				</div>
 				<div>
-				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
+				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative h-48'}>
 					 <Image
 						priority
 						src={plasticSurgery}
@@ -128,7 +128,7 @@ export default function Home() {
 				  </div>
 				</div>
 				<div>
-				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
+				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative h-48'}>
 					 <Image
 						priority
 						src={plasticSurgery}
@@ -147,52 +147,52 @@ export default function Home() {
 		
 		<section className={'py-4'}>
 		  <div className="container">
-			 <div className="gap-4 grid grid-cols-1 sm:grid-cols-2">
+			 <div className="gap-4 grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3">
 				<div>
-				  <div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+				  <div className={'h-48 w-full rounded-md relative overflow-hidden'}>
 					 <Image
 						fill
 						src={neurosurgery}
 						alt={'neurosurgery'}
 					 />
-					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
-						<h6 className={'text-white text-sm not-italic font-bold leading-10'}>Нейрохирургия</h6>
+					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-start p-4'}>
+						<h6 className={'text-white text-base not-italic font-medium leading-10 sm:text-lg'}>Нейрохирургия</h6>
 					 </div>
 				  </div>
 				</div>
 				<div>
-				  <div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+				  <div className={'h-48 w-full rounded-md relative overflow-hidden'}>
 					 <Image
 						fill
 						src={ophthalmology}
 						alt={'neurosurgery'}
 					 />
-					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
-						<h6 className={'text-white text-sm not-italic font-bold leading-10'}>Офтальмология</h6>
+					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-start p-4'}>
+						<h6 className={'text-white text-base not-italic font-medium leading-10 sm:text-lg'}>Офтальмология</h6>
 					 </div>
 				  </div>
 				</div>
 				<div>
-				  <div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+				  <div className={'h-48 w-full rounded-md relative overflow-hidden'}>
 					 <Image
 						fill
 						src={surgeryWeightLoss}
 						alt={'neurosurgery'}
 					 />
-					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
-						<h6 className={'text-white text-sm not-italic font-bold leading-5'}>Хирургия <br/> Снижен Веса</h6>
+					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-start p-4'}>
+						<h6 className={'text-white text-base not-italic font-medium leading-10 sm:text-lg'}>Хирургия Снижен Веса</h6>
 					 </div>
 				  </div>
 				</div>
 				<div>
-				  <div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+				  <div className={'h-48 w-full rounded-md relative overflow-hidden'}>
 					 <Image
 						fill
 						src={surgeryWeightLoss}
 						alt={'neurosurgery'}
 					 />
-					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
-						<h6 className={'text-white text-sm not-italic font-bold leading-5'}>Хирургия <br/> Снижен Веса</h6>
+					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-start p-4'}>
+						<h6 className={'text-white text-base not-italic font-medium leading-10 sm:text-lg'}>Хирургия Снижен Веса</h6>
 					 </div>
 				  </div>
 				</div>
