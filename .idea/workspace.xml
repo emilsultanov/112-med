@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Make card responsive">
-      <change afterPath="$PROJECT_DIR$/public/background-images/neurosurgery-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/background-images/neurosurgery-spine-surgery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/background-images/neurosurgery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/background-images/ophthalmology.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/background-images/weight-loss-surgery.jpeg" afterDir="false" />
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Create mobile view of items">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +144,8 @@
       <workItem from="1689793669311" duration="28000" />
       <workItem from="1690116296080" duration="597000" />
       <workItem from="1690278760650" duration="78000" />
-      <workItem from="1690289014937" duration="3273000" />
+      <workItem from="1690289014937" duration="3500000" />
+      <workItem from="1690301322301" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -240,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689743757686</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Create mobile view of items">
+      <option name="closed" value="true" />
+      <created>1690293273159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690293273159</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +285,7 @@
     <MESSAGE value="Make image card" />
     <MESSAGE value="Create plastic surgery card using built-in Image component of nextjs" />
     <MESSAGE value="Make card responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make card responsive" />
+    <MESSAGE value="Create mobile view of items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create mobile view of items" />
   </component>
 </project>

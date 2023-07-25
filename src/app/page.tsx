@@ -82,9 +82,9 @@ export default function Home() {
 		</div>
 	 </section>
 		
-		<section className={'mt-5'}>
+		<section className={'py-4'}>
 		  <div className="container">
-			 <div className="gap-4 grid grid-cols-1 sm:grid-cols-2">
+			 <div className={'gap-4 grid grid-cols-1 sm:grid-cols-2'}>
 				<div>
 				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
 					 <Image
@@ -100,42 +100,99 @@ export default function Home() {
 				  </div>
 				</div>
 				<div>
-				  <div className="gap-4 grid grid-cols-2">
-					 <div>
-						<div className={'h-32 w-full rounded-md relative overflow-hidden'}>
-						  <Image
-							 fill
-							 src={neurosurgery}
-							 alt={'neurosurgery'}
-						  />
-						  <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
-							 <h6 className={'text-white text-sm not-italic font-bold leading-10'}>Нейрохирургия</h6>
-						  </div>
-						</div>
+				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
+					 <Image
+						priority
+						src={plasticSurgery}
+						alt={'plastic-surgery'}
+						className={'w-auto h-auto object-cover'}
+					 />
+					 <div className={'p-3 h-full flex flex-col items-start justify-between absolute inset-0'}>
+						<h6 className={'text-sm not-italic font-semibold leading-4 sm:text-lg md:text-xl lg:text-2xl'}>Пластическая <br/> Хирургия</h6>
+						<button className={'rounded-sm bg-primary-blue-100 text-white text-xs py-1.5 px-3 sm:text-sm md:text-base lg:text-lg'}>Смотреть еще</button>
 					 </div>
-					 <div>
-						<div className={'h-32 w-full rounded-md relative overflow-hidden'}>
-						  <Image
-							 fill
-							 src={ophthalmology}
-							 alt={'neurosurgery'}
-						  />
-						  <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
-							 <h6 className={'text-white text-sm not-italic font-bold leading-10'}>Офтальмология</h6>
-						  </div>
-						</div>
+				  </div>
+				</div>
+				<div>
+				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
+					 <Image
+						priority
+						src={plasticSurgery}
+						alt={'plastic-surgery'}
+						className={'w-auto h-auto object-cover'}
+					 />
+					 <div className={'p-3 h-full flex flex-col items-start justify-between absolute inset-0'}>
+						<h6 className={'text-sm not-italic font-semibold leading-4 sm:text-lg md:text-xl lg:text-2xl'}>Пластическая <br/> Хирургия</h6>
+						<button className={'rounded-sm bg-primary-blue-100 text-white text-xs py-1.5 px-3 sm:text-sm md:text-base lg:text-lg'}>Смотреть еще</button>
 					 </div>
-					 <div>
-						<div className={'h-32 w-full rounded-md relative overflow-hidden'}>
-						  <Image
-							 fill
-							 src={surgeryWeightLoss}
-							 alt={'neurosurgery'}
-						  />
-						  <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
-							 <h6 className={'text-white text-sm not-italic font-bold leading-5'}>Хирургия <br/> Снижен Веса</h6>
-						  </div>
-						</div>
+				  </div>
+				</div>
+				<div>
+				  <div className={'border border-primary-gray-200 rounded-md flex justify-end relative sm:h-full'}>
+					 <Image
+						priority
+						src={plasticSurgery}
+						alt={'plastic-surgery'}
+						className={'w-auto h-auto object-cover'}
+					 />
+					 <div className={'p-3 h-full flex flex-col items-start justify-between absolute inset-0'}>
+						<h6 className={'text-sm not-italic font-semibold leading-4 sm:text-lg md:text-xl lg:text-2xl'}>Пластическая <br/> Хирургия</h6>
+						<button className={'rounded-sm bg-primary-blue-100 text-white text-xs py-1.5 px-3 sm:text-sm md:text-base lg:text-lg'}>Смотреть еще</button>
+					 </div>
+				  </div>
+				</div>
+			 </div>
+		  </div>
+		</section>
+		
+		<section className={'py-4'}>
+		  <div className="container">
+			 <div className="gap-4 grid grid-cols-1 sm:grid-cols-2">
+				<div>
+				  <div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+					 <Image
+						fill
+						src={neurosurgery}
+						alt={'neurosurgery'}
+					 />
+					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
+						<h6 className={'text-white text-sm not-italic font-bold leading-10'}>Нейрохирургия</h6>
+					 </div>
+				  </div>
+				</div>
+				<div>
+				  <div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+					 <Image
+						fill
+						src={ophthalmology}
+						alt={'neurosurgery'}
+					 />
+					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
+						<h6 className={'text-white text-sm not-italic font-bold leading-10'}>Офтальмология</h6>
+					 </div>
+				  </div>
+				</div>
+				<div>
+				  <div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+					 <Image
+						fill
+						src={surgeryWeightLoss}
+						alt={'neurosurgery'}
+					 />
+					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
+						<h6 className={'text-white text-sm not-italic font-bold leading-5'}>Хирургия <br/> Снижен Веса</h6>
+					 </div>
+				  </div>
+				</div>
+				<div>
+				  <div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+					 <Image
+						fill
+						src={surgeryWeightLoss}
+						alt={'neurosurgery'}
+					 />
+					 <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
+						<h6 className={'text-white text-sm not-italic font-bold leading-5'}>Хирургия <br/> Снижен Веса</h6>
 					 </div>
 				  </div>
 				</div>
