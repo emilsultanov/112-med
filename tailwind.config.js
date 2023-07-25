@@ -26,6 +26,9 @@ module.exports = {
       },
       fontSize:{
         "2xs": "0.8rem"
+      },
+      backgroundImage:{
+        'gradient-blue-100': 'linear-gradient(180deg, rgba(82, 130, 255, 0.00) 0%, #5282FF 100%)'
       }
     }
   },
