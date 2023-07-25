@@ -4,6 +4,9 @@ import searchIcon from '../../public/icons/search.svg'
 import locationMarkerIcon from '../../public/icons/location-marker.svg'
 
 import plasticSurgery from '../../public/background-images/plastic-surgery.svg'
+import neurosurgery from '../../public/background-images/neurosurgery-spine-surgery.jpg'
+import ophthalmology from '../../public/background-images/ophthalmology.jpeg'
+import surgeryWeightLoss from '../../public/background-images/weight-loss-surgery.jpeg'
 
 export default function Home() {
   return (
@@ -97,18 +100,42 @@ export default function Home() {
 				  </div>
 				</div>
 				<div>
-				  <div className="gap-4 grid grid-cols-1 sm:grid-cols-2">
+				  <div className="gap-4 grid grid-cols-2">
 					 <div>
-						<div className={'h-32 w-full bg-indigo-500 rounded-md'}></div>
+						<div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+						  <Image
+							 fill
+							 src={neurosurgery}
+							 alt={'neurosurgery'}
+						  />
+						  <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
+							 <h6 className={'text-white text-sm not-italic font-bold leading-10'}>Нейрохирургия</h6>
+						  </div>
+						</div>
 					 </div>
 					 <div>
-						<div className={'h-32 w-full bg-emerald-600 rounded-md'}></div>
+						<div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+						  <Image
+							 fill
+							 src={ophthalmology}
+							 alt={'neurosurgery'}
+						  />
+						  <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
+							 <h6 className={'text-white text-sm not-italic font-bold leading-10'}>Офтальмология</h6>
+						  </div>
+						</div>
 					 </div>
 					 <div>
-						<div className={'h-32 w-full bg-yellow-400 rounded-md'}></div>
-					 </div>
-					 <div>
-						<div className={'h-32 w-full bg-red-600 rounded-md'}></div>
+						<div className={'h-32 w-full rounded-md relative overflow-hidden'}>
+						  <Image
+							 fill
+							 src={surgeryWeightLoss}
+							 alt={'neurosurgery'}
+						  />
+						  <div className={'absolute bg-gradient-blue-100 bg-no-repeat w-full h-full inset-0 flex z-10 items-end justify-center'}>
+							 <h6 className={'text-white text-sm not-italic font-bold leading-5'}>Хирургия <br/> Снижен Веса</h6>
+						  </div>
+						</div>
 					 </div>
 				  </div>
 				</div>
