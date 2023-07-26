@@ -200,5 +200,14 @@ export default function Home() {
 		  </div>
 		</section>
 		
+		<section className={'py-4'}>
+		  <div className="container">
+			 <div>
+				<h5 className={'text-base not-italic font-semibold leading-5 capitalize mb-2'}>Выберите клинику в другой <br className={'xs:hidden'}/> стране дешевле:</h5>
+				<span className={'text-sm not-italic font-normal leading-[normal] lowercase'}>Поиск по странам, <br className={'xs:hidden'}/> популярные направления</span>
+			 </div>
+		  </div>
+		</section>
+		
   </main>)
 }
