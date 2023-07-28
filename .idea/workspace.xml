@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Create carousel area">
-      <change afterPath="$PROJECT_DIR$/public/background-images/baku.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/background-images/russia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/background-images/turkey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/azerbaijan-flag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/russia-flag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/turkey-flag.svg" afterDir="false" />
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Create country cards for the carousel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
@@ -154,7 +148,8 @@
       <workItem from="1690301322301" duration="4300000" />
       <workItem from="1690365135647" duration="1627000" />
       <workItem from="1690483094741" duration="143000" />
-      <workItem from="1690569489974" duration="632000" />
+      <workItem from="1690569489974" duration="823000" />
+      <workItem from="1690573998641" duration="1094000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -284,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690483169894</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Create country cards for the carousel">
+      <option name="closed" value="true" />
+      <created>1690570230819</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690570230819</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +334,7 @@
     <MESSAGE value="Make second type cars responsive" />
     <MESSAGE value="Create section to show hospitals" />
     <MESSAGE value="Create carousel area" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create carousel area" />
+    <MESSAGE value="Create country cards for the carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create country cards for the carousel" />
   </component>
 </project>
