@@ -14,6 +14,7 @@ import russia from '../../public/background-images/russia.png';
 import azFlag from '../../public/icons/azerbaijan-flag.svg';
 import trFlag from '../../public/icons/turkey-flag.svg';
 import rsFlag from '../../public/icons/russia-flag.svg';
+import {ClinicsByCountries} from "@/app/components/ClinicsByCountries";
 
 export default function Home() {
   return (
@@ -207,48 +208,6 @@ export default function Home() {
 		  </div>
 		</section>
 		
-		<section className={'py-4'}>
-		  <div className="container">
-			 <div>
-				<h5 className={'text-base not-italic font-semibold leading-5 capitalize mb-2'}>Выберите клинику в другой <br className={'xs:hidden'}/> стране дешевле:</h5>
-				<span className={'text-sm not-italic font-normal leading-[normal] lowercase'}>Поиск по странам, <br className={'xs:hidden'}/> популярные направления</span>
-			 </div>
-			 <div className={'gap-4 grid grid-cols-1 sm:grid-cols-3'}>
-				<div>
-				  <div className={'relative'}>
-					 <Image
-						src={baku}
-						alt={'Baku'}
-						className={'w-full'}
-					 />
-					 <Image
-						src={azFlag}
-						alt={'Azerbaijan flag'}
-						className={'absolute top-4 left-5'}
-					 />
-				  </div>
-				</div>
-				<div>
-				  <div className={'relative'}>
-					 <Image
-						src={baku}
-						alt={'Baku'}
-						className={'w-full'}
-					 />
-					 <Image
-						src={azFlag}
-						alt={'Azerbaijan flag'}
-						className={'absolute top-4 left-5'}
-					 />
-				  </div>
-				</div>
-				<div className={'relative'}>
-				  <Image src={russia} alt={'Russia'} className={'w-full'}/>
-				  <Image src={rsFlag} alt={'Russia flag'} className={'absolute top-4 left-5'} />
-				</div>
-			 </div>
-		  </div>
-		</section>
-		
+			<ClinicsByCountries />
   </main>)
 }
