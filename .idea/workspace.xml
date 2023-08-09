@@ -12,36 +12,47 @@
       <change afterPath="$PROJECT_DIR$/apps/docs/.eslintrc.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/docs/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/docs/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/docs/app/page.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/docs/next-env.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/docs/next.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/src/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/tailwind.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/docs/tsconfig.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/web/.eslintrc.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/web/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/web/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/web/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/web/app/page.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/web/next-env.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/web/next.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/src/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/tailwind.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/apps/web/tsconfig.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/packages/eslint-config-custom/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/packages/eslint-config-custom/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tailwind-config/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tailwind-config/tailwind.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/packages/tsconfig/base.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/packages/tsconfig/nextjs.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/packages/tsconfig/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/packages/tsconfig/react-library.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/src/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/src/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/tailwind.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/packages/ui/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/turbo/generators/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/turbo/generators/templates/component.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/tsup.config.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.storybook" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.storybook" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.storybook" />
         <item itemvalue="npm.dev" />
