@@ -5,10 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Complete ui part of the carousel cards.">
-      <change afterPath="$PROJECT_DIR$/src/app/components/ClinicsByCountries.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/src/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/docs/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/src/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-custom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-custom/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tailwind-config/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tailwind-config/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tsconfig/base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tsconfig/nextjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tsconfig/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/tsconfig/react-library.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/src/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/src/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/tsup.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,26 +105,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/main-page-design&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/emilsultanov/projects/112-med&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/emilsultanov/projects/112-med/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/architecture",
+    "last_opened_file_path": "/Users/emilsultanov/projects/112-med",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/emilsultanov/projects/112-med/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/background-images" />
@@ -116,6 +160,7 @@
         <item itemvalue="npm.storybook" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
