@@ -7,7 +7,14 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      lineHeight:{
+        '44': '44px',
+        '60': '60px',
+        '72': '72px',
+        '90': '90px'
+      }
+    },
     colors:{
       gray:{
         25:'#FCFCFD',
