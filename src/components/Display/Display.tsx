@@ -42,9 +42,9 @@ const displayStyles = cva(
 );
 
 export function Display(props: DisplayProps) {
-	const {tag, size, variant, children, className} = props;
+	const {tag, size, variant, children, className, ...rest} = props;
 	const Tag = tag ?? 'h6';
 	return(
-		<Tag className={cn(displayStyles({size, variant, className}))}>{children}</Tag>
+		<Tag className={cn(displayStyles({size, variant, className}))} {...rest}>{children}</Tag>
 	)
 }
