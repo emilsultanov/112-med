@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Create Display and Text components">
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Add custom styles to Text component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Display/Display.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display/Display.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Text/Text.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +166,7 @@
       <workItem from="1691723449380" duration="8818000" />
       <workItem from="1691740504442" duration="4500000" />
       <workItem from="1691771209166" duration="12518000" />
-      <workItem from="1691810271064" duration="1178000" />
+      <workItem from="1691810271064" duration="1941000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -338,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691783745395</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add custom styles to Text component">
+      <option name="closed" value="true" />
+      <created>1691811612687</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1691811612687</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +396,7 @@
     <MESSAGE value="Switch to new monorepo structure which provided by turborepo" />
     <MESSAGE value="Customize colors" />
     <MESSAGE value="Create Display and Text components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Display and Text components" />
+    <MESSAGE value="Add custom styles to Text component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add custom styles to Text component" />
   </component>
 </project>
