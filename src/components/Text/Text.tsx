@@ -1,5 +1,6 @@
 import {HTMLAttributes, PropsWithChildren} from "react";
 import {cva} from "class-variance-authority";
+import {cn} from "@/lib/utils";
 
 
 export type TextSizes = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
@@ -13,22 +14,21 @@ type TextProps = PropsWithChildren<HTMLAttributes<HTMLParagraphElement>> & {
 
 
 const textStyles = cva(
-	'',
+	'not-italic text-gray-900',
 	{
 		variants:{
 			size:{
-				xs: '',
-				sm: '',
-				md: '',
-				lg: '',
-				xl: '',
-				'2xl': ''
+				xs: 'text-xs leading-18',
+				sm: 'text-sm',
+				md: 'text-base',
+				lg: 'text-lg',
+				xl: 'text-xl leading-30',
 			},
 			variant: {
-				regular: '',
-				medium: '',
-				semibold: '',
-				bold: ''
+				regular: 'font-normal',
+				medium: 'font-medium',
+				semibold: 'font-semibold',
+				bold: 'font-bold'
 			}
 		},
 		defaultVariants: {
@@ -40,8 +40,8 @@ const textStyles = cva(
 
 
 export function Text(props: TextProps){
-	const {size, variant, children} = props;
+	const {size, variant, children, className, ...rest} = props;
 	return(
-		<p>{children}</p>
+		<p className={cn(textStyles({size, variant, className}))}>{children}</p>
 	)
 }

@@ -9,6 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       lineHeight:{
+        '18': '18px',
+        '30': '30px',
         '44': '44px',
         '60': '60px',
         '72': '72px',
