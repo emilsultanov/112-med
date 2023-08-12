@@ -35,9 +35,9 @@ const buttonStyles = cva(
 				'gray-dark': 'shadow-xs bg-gray-600 border-gray-600 text-[#fff] hover:bg-gray-700 hover:border-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-100 focus:bg-gray-600 focus:border-gray-600 disabled:bg-gray-200 disabled:border-gray-200 disabled:cursor-not-allowed',
 				'gray-medium': 'shadow-xs bg-gray-50 border-gray-200 text-gray-700 hover:bg-gray-100 hover:text-gray-800 focus:outline-none focus:bg-gray-50 focus:ring-4 focus:ring-gray-100 focus:text-gray-700 disabled:bg-gray-25 disabled:border-gray-25 disabled:text-gray-300 disabled:cursor-not-allowed',
 				'gray-light': 'border-[transparent] text-gray-700 hover:bg-gray-50 hover:text-gray-800 focus:text-gray-700 focus:outline-none focus:bg-[transparent] disabled:text-gray-300 disabled:bg-[transparent] disabled:cursor-not-allowed',
-				'error-dark': '',
-				'error-medium': '',
-				'error-light': '',
+				'error-dark': 'shadow-xs bg-error-600 border-error-600 text-[#fff] hover:bg-error-700 hover:border-error-700 focus:outline-none focus:ring-4 focus:ring-error-100 focus:bg-error-600 focus:border-error-600 disabled:bg-error-200 disabled:border-error-200 disabled:cursor-not-allowed',
+				'error-medium': 'shadow-xs bg-error-50 border-error-200 text-error-700 hover:bg-error-100 hover:text-error-800 focus:outline-none focus:bg-error-50 focus:ring-4 focus:ring-error-100 focus:text-error-700 disabled:bg-error-25 disabled:border-error-25 disabled:text-error-300 disabled:cursor-not-allowed',
+				'error-light': 'border-[transparent] text-error-700 hover:bg-error-50 hover:text-error-800 focus:text-error-700 focus:outline-none focus:bg-[transparent] disabled:text-error-300 disabled:bg-[transparent] disabled:cursor-not-allowed',
 			}
 		},
 		defaultVariants:{

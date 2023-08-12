@@ -230,6 +230,87 @@ export default function Home() {
 					<AlertCircle className={'h-5'} />
 				</Button>
 			</div>
+			<div className="mt-7 p-5 flex gap-2 items-start">
+				<Button size={'sm'} color={'error-dark'}>
+					<AlertCircle className={'h-5'} />
+					sm-error-dark
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'md'} color={'error-dark'}>
+					<AlertCircle className={'h-5'} />
+					md-gray-dark
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'lg'} color={'error-dark'}>
+					<AlertCircle className={'h-5'} />
+					lg-gray-dark
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'xl'} color={'error-dark'}>
+					<AlertCircle className={'h-5'} />
+					xl-gray-dark
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'2xl'} color={'error-dark'} disabled>
+					<AlertCircle className={'h-5'} />
+					2xl-gray-dark
+					<AlertCircle className={'h-5'} />
+				</Button>
+			</div>
+			<div className="mt-7 p-5 flex gap-2 items-start">
+				<Button size={'sm'} color={'error-medium'}>
+					<AlertCircle className={'h-5'} />
+					sm-error-medium
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'md'} color={'error-medium'}>
+					<AlertCircle className={'h-5'} />
+					md-gray-medium
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'lg'} color={'error-medium'}>
+					<AlertCircle className={'h-5'} />
+					lg-gray-medium
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'xl'} color={'error-medium'}>
+					<AlertCircle className={'h-5'} />
+					xl-gray-medium
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'2xl'} color={'error-medium'} disabled>
+					<AlertCircle className={'h-5'} />
+					2xl-gray-medium
+					<AlertCircle className={'h-5'} />
+				</Button>
+			</div>
+			<div className="mt-7 p-5 flex gap-2 items-start">
+				<Button size={'sm'} color={'error-light'}>
+					<AlertCircle className={'h-5'} />
+					sm-error-light
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'md'} color={'error-light'}>
+					<AlertCircle className={'h-5'} />
+					md-gray-light
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'lg'} color={'error-light'}>
+					<AlertCircle className={'h-5'} />
+					lg-gray-light
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'xl'} color={'error-light'}>
+					<AlertCircle className={'h-5'} />
+					xl-gray-light
+					<AlertCircle className={'h-5'} />
+				</Button>
+				<Button size={'2xl'} color={'error-light'} disabled>
+					<AlertCircle className={'h-5'} />
+					2xl-gray-light
+					<AlertCircle className={'h-5'} />
+				</Button>
+			</div>
 		</div>
 	)
 }
