@@ -7,6 +7,9 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container:{
+      center: true,
+    },
     extend: {
       lineHeight:{
         '18': '18px',
@@ -24,6 +27,9 @@ const config: Config = {
         xl: '0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08)',
         '2xl': '0px 24px 48px -12px rgba(16, 24, 40, 0.18)',
         '3xl': '0px 32px 64px -12px rgba(16, 24, 40, 0.14)',
+      },
+      padding:{
+        '4.5': '18px'
       }
     },
     colors:{
