@@ -2,6 +2,8 @@ import {Display} from "@/components/Display";
 import {Text} from "@/components/Text";
 import {Button} from "@/components/Button";
 import {AlertCircle} from 'react-feather'
+import {Modal} from "@/components/Modal";
+
 
 export default function Home() {
 	return (
@@ -26,7 +28,7 @@ export default function Home() {
 			</div>
 			<div className={'flex justify-around'}>
 				<div className={'mb-7 shadow-xs p-2'}>
-					<Text size={'xl'} variant={'regular'}>Text-xl-regular</Text>
+					<Text size={'xl'} variant={'regular'}>Text-xl-regular</Text> // new Text(xl, regular)
 					<Text size={'xl'} variant={'medium'}>Text-xl-medium</Text>
 					<Text size={'xl'} variant={'semibold'}>Text-xl-semibold</Text>
 					<Text size={'xl'} variant={'bold'}>Text-xl-bold</Text>
@@ -311,6 +313,7 @@ export default function Home() {
 					<AlertCircle className={'h-5'} />
 				</Button>
 			</div>
+			
 		</div>
 	)
 }
