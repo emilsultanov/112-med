@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Create just icon button component">
-      <change afterPath="$PROJECT_DIR$/src/app/components/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/index.ts" afterDir="false" />
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Create Custom Modal component using headless-ui">
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextField/TextField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextField/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -61,6 +58,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2RcdQRDqcMECseimKhQ1d45lHFc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,7 +84,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/emilsultanov/projects/112-med/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -175,7 +175,13 @@
       <workItem from="1691810271064" duration="10113000" />
       <workItem from="1691851097571" duration="11758000" />
       <workItem from="1692937128074" duration="8718000" />
-      <workItem from="1692990714389" duration="3891000" />
+      <workItem from="1692990714389" duration="6057000" />
+      <workItem from="1694028169460" duration="4376000" />
+      <workItem from="1694792183848" duration="30000" />
+      <workItem from="1694793128959" duration="637000" />
+      <workItem from="1694794729719" duration="138000" />
+      <workItem from="1694794962715" duration="1246000" />
+      <workItem from="1694798648298" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -393,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692937330344</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Create Custom Modal component using headless-ui">
+      <option name="closed" value="true" />
+      <created>1692996646100</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1692996646100</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +438,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Create mobile view of first section of main page." />
     <MESSAGE value="Remove unused images" />
     <MESSAGE value="Make aviable the first section of main page for medium screens." />
     <MESSAGE value="Add custom paddings according to custom screen sizes." />
@@ -449,6 +462,7 @@
     <MESSAGE value="Create button component gray variant" />
     <MESSAGE value="Create button component error variant" />
     <MESSAGE value="Create just icon button component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create just icon button component" />
+    <MESSAGE value="Create Custom Modal component using headless-ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Custom Modal component using headless-ui" />
   </component>
 </project>
