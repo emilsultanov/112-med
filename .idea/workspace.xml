@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Install headless-ui" />
+    <list default="true" id="f29e4dbf-e697-4b8c-90f4-de20756faba6" name="Changes" comment="Install clsx tailwind-merge class-variance-authority util libraries">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="reset" />
+        <entry key="$PROJECT_DIR$" value="dependencies" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +80,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dependencies",
+    "git-widget-placeholder": "feature/theme-config",
     "last_opened_file_path": "/Users/emilsultanov/projects/112-med/apps",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -183,7 +186,7 @@
       <workItem from="1694794729719" duration="138000" />
       <workItem from="1694794962715" duration="1246000" />
       <workItem from="1694798648298" duration="15000" />
-      <workItem from="1695883797601" duration="1494000" />
+      <workItem from="1695883797601" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="Install storybook and create configs to integrate it with nextjs and tailwindcss">
       <option name="closed" value="true" />
@@ -425,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695884896078</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Install clsx tailwind-merge class-variance-authority util libraries">
+      <option name="closed" value="true" />
+      <created>1695885566896</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1695885566896</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add custom paddings according to custom screen sizes." />
     <MESSAGE value="Make available the first section of main page for large screens." />
     <MESSAGE value="Create main page search categories section and make it responsible." />
     <MESSAGE value="Make image card" />
@@ -481,6 +491,7 @@
     <MESSAGE value="Create Custom Modal component using headless-ui" />
     <MESSAGE value="Reset everything" />
     <MESSAGE value="Install headless-ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install headless-ui" />
+    <MESSAGE value="Install clsx tailwind-merge class-variance-authority util libraries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Install clsx tailwind-merge class-variance-authority util libraries" />
   </component>
 </project>
